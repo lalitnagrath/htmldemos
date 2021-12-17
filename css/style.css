@@ -3,3 +3,19 @@ p{
     background:red;
     font-size:40px;
 }
+
+div{
+    width:100px;
+    height:100px;
+    background: green;
+}
+
+.box{
+    color:red;
+    background: violet;
+    padding:50px;
+    margin:20px;
+    border:2px solid blue;
+    float:left;
+    position:relative;
+}
