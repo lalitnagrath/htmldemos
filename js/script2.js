@@ -1,5 +1,9 @@
-var groceries = ["milk","Eggs","cheese"]
-vari=0;
-for(var i=0 ; i<=2 ;i++){
-    console.log(groceries[i]);
+var groceries =["milk","Eggs","Bread"];
+
+function listGroceries(){
+    for(var x=0;x<=2;x++){
+        console.log(groceries[x]);
+    }
 }
+
+listGroceries();
