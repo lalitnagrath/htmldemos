@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header{
@@ -18,6 +19,30 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
 nav img{
     width:150px;
+}
+
+.nav-links{
+   flex:1;
+   text-align:right; 
+}
+
+.nav-links li{
+    list-style: none;
+    display:inline-block;
+    position: relative;
+    padding:8px 12px;
+}
+
+.nav-links li a{
+text-decoration: none;
+color:#fff;
+font-size:14px;
+
+}
+
+.nav-links ul li::after{
+    
 }
