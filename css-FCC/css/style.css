@@ -1,0 +1,35 @@
+h1{
+    color:blue;
+}
+.about-me{
+    color:red;
+}
+#about{
+    color:grey;
+}
+
+h1:hover{
+    color:aqua;
+    text-decoration: underline;
+}
+
+li:first-child{
+    color:red;
+}
+
+li:nth-chile(2){
+    color:pink;
+}
+
+li:only-child{
+    color:purple;
+}
+
+#google-link:link{
+collor:blue;
+}
+
+#google-link:visited{
+    color:red;
+
+}
